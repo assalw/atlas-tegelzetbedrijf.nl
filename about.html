@@ -29,7 +29,6 @@
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
-
 <body>
 <!-- Prompt IE 7 users to install Chrome Frame -->
 <!--[if lt IE 8]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -43,13 +42,13 @@
 		
 		<nav class="fright">
 			<ul>
-				<li><a href="index.html" class="navactive">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 			</ul>
 			<ul>
 				<li><a href="galerij.html">Galerij</a></li>
 			</ul>
 			<ul>
-				<li><a href="about.html">Over ons</a></li>
+				<li><a href="about.html" class="navactive">Over ons</a></li>
 			</ul>		
 			<ul>
 				<li><a href="contact.html">Contact</a></li>
@@ -58,33 +57,23 @@
 	</header>
 
 
-<div class="home-page main">
-	<section class="grid-wrap" >
+	<div class="about-page main grid-wrap">
 		
-		<div class="grid col-one-half mq2-col-full">
-			<h1>Welkom bij ATLAS</h1>
-		<p>Badkamer, kelder, garage, keuken of toilet: wij voeren al uw wensen uit. Vanaf de voorbewerking  het egaliseren, tegelzetten tot en met de afwerking de vloer smeren. Ook voor terrassen en kamervloeren (met of zonder vloerverwarming) bent u bij ons aan het juiste adres.</p>
-
-		<p>Benieuwd naar ons werk? onder het kopje Gallerij vindt u eerder projecten.</p>
-
-		<p>U kunt altijd vrijblijvend advies vragen of een passende offerte naar wens laten opstellen.</p>
-
-		<p>Tegelzetbedrijf Atlas levert uitluitend hoogstaande kwaliteit!</p>		
-		</div>
+		<section class="grid col-three-quarters mq2-col-full">
 			
-	
-		 <div class="slider grid col-one-half mq2-col-full">
-		 	<div class="frontimage">
-		 		<img src="img/3.jpg" alt="">
-		 	</div>
-		 </div>
+			<h2>Over ons</h2>
+			<article id="navmain">
+			<p>Atlas Tegelzetbedrijf is een bedrijf met meer dan 20 jaar werkervaring, dat gevestigd is in Didam.
+			Dankzij onze ruime ervaring kunnen wij uw maatwerk vakundig uitvoeren.  Wij zijn gespecialiseerd in het leggen van natuursteen- en keramische tegels in zowel lijm- als specie vloeren.</p>
+			<p>Het is voor ons geen probleem dat u zelf de tegels, materiaal en/of sanitair levert, uiteraard kunnen wij dit ook voor u verzorgen.</p>
+			</article>
 		
-		 </section>
-
+		</section>
+		
 	</div> <!--main-->
 
 <div class="divide-top">
-	<footer class="grid-wrap">
+<footer class="grid-wrap">
 		<div class="grid col-one-half mq2-col-full">
 			<p>Ter Laakstraat 1 - 6941AT - Didam  &nbsp&nbsp&nbsp&nbsp  TEL: 0316848072 / 0652381888</p>
 		</div>
@@ -92,8 +81,7 @@
 		<div class="grid col-one-half mq2-col-full">
 			<p>E-MAIL: info@atlas-tegelzetbedrijf.nl</p>
 		</div>
-
-	</footer>
+</footer>
 </div>
 
 </div>
@@ -106,8 +94,14 @@
 <script src="js/selectivizr.js"></script>
 <![endif]-->
 
-<script src="js/jquery.flexslider-min.js"></script>
 <script src="js/scripts.js"></script>
 
+<!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID. -->
+<script>
+  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
 </body>
 </html>
